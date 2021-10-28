@@ -2,7 +2,10 @@ package io.example.first
  
 class Person {
 
-    Person(def name, def age){
+    String name
+    Integer age
+
+    Person(String name, Integer age){
         this.name = name
         this.age = age
     }
