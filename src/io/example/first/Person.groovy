@@ -10,7 +10,7 @@ class Person {
         this.age = age
     }
 
-    def personAbout(def name, def age){
+    def personAbout(){
         return "Name: ${name}, age: ${age}" 
     }
 }
