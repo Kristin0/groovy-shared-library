@@ -7,3 +7,7 @@ void debug(String mes) {
 void info(String mes) {
     println "Info: ${mes}"
 }
+
+def call(String name = 'human') {
+    echo "Hello, ${name}."
+}
